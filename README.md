@@ -5,6 +5,7 @@ __Note: This tokensale runs on the Ethereum Ropsten testnet and will not raise a
 __Token Details__: The token "ICO" will be open from 00h00 15 January 2018 - 00h00 5 February 2018. 
 
 The `CryptoSocTokensale` address is: `0x0370c54699550FF3A6b79D09225c5f06D0b6F6c8`
+
 The `CryptoSocCoin` token address is: `0x1f5F9801FFD0Aea09A18Aee8358BB4cffCe7acd3`
 
 You can view the contract and all of it's properties on the Ropsten Testnet version of [Etherscan.io](https://ropsten.etherscan.io/)
@@ -19,10 +20,12 @@ Just paste the addresses in the search bar.
 
 3. Send testnet ETH to the `CryptoSocTokensale` contract. The address is:
 __0x0370c54699550FF3A6b79D09225c5f06D0b6F6c8__
+
 You will have to wait for the transaction to be mined. You can monitor its progress on etherscan as well by searching for your address.
 
 4. Add the `CryptoSocCoin` token contract as a token in your wallet. Click "Add Token" and put in: 
 __0x1f5F9801FFD0Aea09A18Aee8358BB4cffCe7acd3__
+
 The rest of the field should automatically populate with their values after a second or two.
 
 5. Your balance will appear as soon as the block is mined.
