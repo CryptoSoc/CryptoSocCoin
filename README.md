@@ -14,7 +14,7 @@ Just paste the addresses in the search bar.
 
 ## How to Participate
 
-1. Get [MetaMask](metamask.io). Yes you can use many other ways to partake but you will have to use another tutorial and just substitute in the CryptoSocCoin addresses and ensure you are on the Ropsten testnet.
+1. Get [MetaMask](https://metamask.io). Yes you can use many other ways to partake but you will have to use another tutorial and just substitute in the CryptoSocCoin addresses and ensure you are on the Ropsten testnet.
 
 2. Claim some Ropsten testnet ETH. See below for recommended faucets.
 
@@ -39,7 +39,7 @@ The testnet is a development environment. That means the ETH you have is worth n
 Don't send lots of transactions. We want you to try get the hang of participating in the Ethereum network and seeing what it's about but there are still maintainers who don't want to see all your spam transactions. In fact Ropsten was already DOS'ed.
 
 ### Claim some Testnet ETH
-The first requires the [MetaMask](metamask.io) plugin which we highly recommend to participate in the crowdsale.
+The first requires the [MetaMask](https://metamask.io) plugin which we highly recommend to participate in the crowdsale.
 
 Claim some testnet ETH from these faucets:
 - https://faucet.metamask.io/
@@ -58,7 +58,7 @@ To interact with them in a high level way, you can use [MyEtherWallet](https://w
 
 For simplicity the CryptoSocCoin token will be launched on a testnet so that users can get coins for free. You will need to claim free testnet ETH from a faucet on the same testnetwork.
 
-For simple interaction with testnets, we recommend using the [MetaMask](metamask.io) plugin for chrome and Firefox.
+For simple interaction with testnets, we recommend using the [MetaMask](https://metamask.io) plugin for chrome and Firefox.
 
 
 ## How to Deploy Your Own CryptoSocCoin
@@ -71,7 +71,7 @@ Once in the Remix IDE:
 - Go to the run tab in the top right
 - Choose your runtime environment
   - The JavaScript virtual machine is the easiest and simulates the blockchain in your browser. It requires no other software install and gives you test accounts with test ETH. If you don't know what to use, use this.
-  - The Injected Web3 is a JSON-RPC connection to an ethereum node. One way to use injected web3 is through [MetaMask](metamask.io) - a simple browser plugin. This llows you to connect to the Ethereum mainnet and testnets. Note: If you deploy to the mainnet you will pay around $10 in transaction fees to launch the contract.
+  - The Injected Web3 is a JSON-RPC connection to an ethereum node. One way to use injected web3 is through [MetaMask](https://metamask.io) - a simple browser plugin. This llows you to connect to the Ethereum mainnet and testnets. Note: If you deploy to the mainnet you will pay around $10 in transaction fees to launch the contract.
   - The Web3 Provider is a locally run ethereum node. This can be difficult to set up but provides more fine-tuning capability. If you want to see a simple local testnet, try [testrpc](https://www.npmjs.com/package/ethereumjs-testrpc).
   
 - Choose the "CryptoSocTokensale" contract from the dropdown.
