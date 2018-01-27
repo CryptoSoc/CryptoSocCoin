@@ -47,14 +47,30 @@ Claim some testnet ETH from these faucets:
 - http://faucet.ropsten.be:3001/
 
 
+# The Rest of This Tutorial Is For Those That Are Interested
+
 
 ## To Interact with the Live Contract
 
-The contract has not been deployed yet. Further details will be provided soon.
+The `CryptoSocTokensale` address is: `0x0370c54699550FF3A6b79D09225c5f06D0b6F6c8`
 
-You can view contracts and, if they have been verified, their source code and ABI.
+The `CryptoSocCoin` token address is: `0x1f5F9801FFD0Aea09A18Aee8358BB4cffCe7acd3`
 
-To interact with them in a high level way, you can use [MyEtherWallet](https://www.myetherwallet.com/#contracts). You will need the ABI (possibly from etherscan.io) and the contract address. 
+You can view contracts and, if they have been verified (edit: the contracts have been verified), their source code and ABI on [etherscan](www.ropsten.etherscan.io)
+
+To interact with them in a high level way, you can use [MyEtherWallet](https://www.myetherwallet.com/#contracts), Just make sure you are using the Ropsten testnet. You will need the ABI (possibly from etherscan.io) and the contract address. 
+
+The methods of the token contract that you can call are: 
+* name
+* approve
+* transferFrom
+* totalSupply
+* balanceOf
+* symbol
+* transfer
+* and a few more
+
+To see what these methods do, look at the contract source code on etherscan.
 
 For simplicity the CryptoSocCoin token will be launched on a testnet so that users can get coins for free. You will need to claim free testnet ETH from a faucet on the same testnetwork.
 
