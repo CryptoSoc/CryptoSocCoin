@@ -46,6 +46,14 @@ Claim some testnet ETH from these faucets:
 - https://faucet.kyber.network/
 - http://faucet.ropsten.be:3001/
 
+## How to transact using your newly claimed CryptoSocCoin (CSC)
+
+Unfortunately, for now, Metamask doesn't let you directly send (transact) with ERC-20 tokens (like CSC)
+BUT you can easily get around this with the following:
+
+Head to https://www.myetherwallet.com/ and click 'Send Ether and Tokens' in the top left
+#### NB make sure that you have selected the Ropsten Test Network at the top right of your screen
+
 
 # The Rest of This Tutorial Is For Those That Are Interested
 
