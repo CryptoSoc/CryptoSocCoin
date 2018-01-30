@@ -51,11 +51,66 @@ Claim some testnet ETH from these faucets:
 Unfortunately, for now, Metamask doesn't let you directly send (transact) with ERC-20 tokens (like CSC)
 BUT you can easily get around this with the following:
 
+__Short aside here: to send ERC-20 tokens you'll need some ETH in your account to pay for 'gas'. So make sure you have some [ETH in your wallet](https://faucet.metamask.io/)__
+
 (1) Head to https://www.myetherwallet.com/ and click 'Send Ether and Tokens' in the top left
 #### (2) NB make sure that you have selected the Ropsten Test Network at the top right of your screen
 (3) Select 'MetaMask/Mist' from the options below
 
-![](/MEW_tut_edit.jpg)
+(4) Connect!
+
+![](/images/MEW_tut_edit.jpg)
+
+Now you should see your wallet. You're going to have to add your CryptoSocCoin manually, so:
+
+(5) Add custom token
+
+(6) Enter the token address (__0x1f5F9801FFD0Aea09A18Aee8358BB4cffCe7acd3__), symbol and decimals as shown and save!
+
+
+![](/images/MEW_2_edit.jpg.jpg)
+
+
+Now it's time to send those juicy tokens to someone!
+So ask a friend for their Ropsten Testnet ETH address (or if you have no friends just send Thomas some CSC like I did. 
+(Address: __0x7f5156f2584a25030b61205edc52e55bcfec47b1__)
+
+Input the amount and make sure you've selected to send 'CSC' as shown below!
+
+![](images/MEW_3_edit.jpg.jpg)
+
+Generate that transaction, sign it and then confirm.
+
+![](images/MEW_4.png)
+
+Now MetaMask will (should) pop open and ask you to confirm. Click 'Submit'
+
+![](images/MEW_5.png)
+
+If you want to learn more about all those funny numbers (GWEI, Gas, etc.) start [here](https://myetherwallet.github.io/knowledge-base/gas/what-is-gas-ethereum.html).
+
+That's it! You've just sent your CSC to someone!
+
+__But__ since this is so fun, let's track our transaction through the blockchain and check to see that this all worked!
+
+You'll need your Transaction hash:
+
+![](images/MEW_6.jpg.jpg)
+
+Now copy/paste that into the top right search box of https://ropsten.etherscan.io/
+
+As you can see, my transaction was included in block number __2551653__
+
+![](images/MEW_8.jpg.jpg)
+
+Clicking on the underlined address (0x7f51....) will take us to see that our transaction has reflected on their balance
+
+![](images/MEW_9.jpg.jpg)
+
+And there it is! You can see the value of the transaction has been assigned to that Ethereum address. 
+
+That wasn't so hard!
+
 
 
 # The Rest of This Tutorial Is For Those That Are Interested
