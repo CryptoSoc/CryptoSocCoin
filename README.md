@@ -153,7 +153,7 @@ Once in the Remix IDE:
 - Go to the run tab in the top right
 - Choose your runtime environment
   - The JavaScript virtual machine is the easiest and simulates the blockchain in your browser. It requires no other software install and gives you test accounts with test ETH. If you don't know what to use, use this.
-  - The Injected Web3 is a JSON-RPC connection to an ethereum node. One way to use injected web3 is through [MetaMask](https://metamask.io) - a simple browser plugin. This llows you to connect to the Ethereum mainnet and testnets. Note: If you deploy to the mainnet you will pay around $10 in transaction fees to launch the contract.
+  - The Injected Web3 is a JSON-RPC connection to an ethereum node. One way to use injected web3 is through [MetaMask](https://metamask.io) - a simple browser plugin. This allows you to connect to the Ethereum mainnet and testnets. Note: If you deploy to the mainnet you will pay around $10 in transaction fees to launch the contract.
   - The Web3 Provider is a locally run ethereum node. This can be difficult to set up but provides more fine-tuning capability. If you want to see a simple local testnet, try [testrpc](https://www.npmjs.com/package/ethereumjs-testrpc).
   
 - Choose the "CryptoSocTokensale" contract from the dropdown.
