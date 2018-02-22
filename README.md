@@ -2,6 +2,8 @@
 The Official UCT CryptoSoc Token
 __Note: This tokensale runs on the Ethereum Ropsten testnet and will not raise any real money. It is for experimentation and fun. Don't be greedy.__
 
+### The smart contract will not accept any more contributions since the 5th of Feb 2017. If you try to send one, it will fail.
+
 __Token Details__: The token "ICO" will be open from 00h00 15 January 2018 - 00h00 5 February 2018. 
 
 The `CryptoSocTokensale` address is: `0x0370c54699550FF3A6b79D09225c5f06D0b6F6c8`
