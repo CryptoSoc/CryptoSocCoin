@@ -3,6 +3,9 @@ pragma solidity ^0.4.13;
 import './CryptoSocCoin.sol';
 import './Zeppelin/math/SafeMath.sol';
 
+// If using Remix solidity browser you can import directly from github
+// import 'http://github.com/CryptoSoc/CryptoSocCoin/Zeppelin/math/SafeMath.sol';
+
 /**
  * @title CryptoSocCoinCrowdsale
  * The Crowdsale contract for the UCT CryptoSoc Crowdsale
