@@ -4,6 +4,11 @@ import "./Zeppelin/token/StandardToken.sol";
 import "./Zeppelin/ownership/Ownable.sol";
 import "./Zeppelin/math/SafeMath.sol";
 
+// If using Remix solidity browser you can import directly from github
+// import "http://github.com/CryptoSoc/CryptoSocCoin/Zeppelin/token/StandardToken.sol";
+// import "http://github.com/CryptoSoc/CryptoSocCoin/Zeppelin/ownership/Ownable.sol";
+// import "http://github.com/CryptoSoc/CryptoSocCoin/Zeppelin/math/SafeMath.sol";
+
  /*
  * This is the smart contract for the CryptoSocCoin token.
  * Read about us and sign up at:
@@ -35,6 +40,7 @@ contract CryptoSocCoin is StandardToken, Ownable {
       totalSupply += additions;
   }
 
+  // Transfer tokens to an address
   function transfer(address _to, uint _value) public returns (bool) {
         // Prevent transfer to 0x0 address
         require (_to != 0x0);
